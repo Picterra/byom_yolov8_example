@@ -71,7 +71,7 @@ def my_model(raster_ds: gdal.Dataset) -> list[Polygon]:
 
 if __name__ == '__main__':
     input_filename = '/input/raster.tif'
-    output_filename = '/output/myobjects.geojson'
+    output_filename = '/output/results.geojson'
     raster_ds = get_input_ds(input_filename)
     geom_colleciton = my_model(raster_ds=raster_ds)
     write_output(output_filename, geom_colleciton)
