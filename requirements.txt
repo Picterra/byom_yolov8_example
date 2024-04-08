@@ -1,2 +1,11 @@
 GDAL==3.4.1
 shapely==2.0.3
+opencv-python==4.7.0.72
+torch==2.1.2 --index-url https://download.pytorch.org/whl/cu121
+torchvision==0.16.2 --index-url https://download.pytorch.org/whl/cu121
+psutil==5.9.0
+matplotlib==3.8.2
+pandas==2.2.0
+tqdm==4.66.1
+pybboxes==0.1.6
+pyyaml==6.0.1
