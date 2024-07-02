@@ -198,8 +198,7 @@ def my_model(raster_ds: gdal.Dataset) -> list[Polygon]:
     """
     You can replace this with calling your custom model code.
 
-    This example code generates a polygon with dimensions approx. 10% of the size of the raster
-    with its origin in the center of a given raster
+    This is an example trucks detector using the YoloV8 model
 
     :param raster_ds: a gdal dataset containing the raster data
     :return: a shapely GeometryCollection

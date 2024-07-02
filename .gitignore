@@ -1,2 +1,10 @@
-# pycharm project files
+# Jetbrains project files
 .idea
+
+# Input directory files except the Readme
+input
+!input/Readme.md
+
+# Output directory files except the Readme
+output
+!output/Readme.md

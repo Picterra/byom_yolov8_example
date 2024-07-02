@@ -17,7 +17,7 @@ then run:
 
 `docker run -v $PWD/input:/input/ -v $PWD/output:/output picterra-byom-example`
 
-You should expect to see myobjects.geojson appear in your `output` directory
+You should expect to see results.geojson appear in your `output` directory
 
 # Publishing to the Picterra platform
 
